@@ -14,6 +14,7 @@ public class Welcome extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_welcome);
 
         Toast.makeText(getApplicationContext(), "欢迎来到 Love Coding,么么哒", Toast.LENGTH_SHORT).show();
@@ -37,7 +38,7 @@ public class Welcome extends AppCompatActivity {
             }
 
         };
-        handler.postDelayed(runnable, 2000);// 打开定时器，执行操作
+        handler.postDelayed(runnable, 200);// 打开定时器，执行操作
 
 
     }
