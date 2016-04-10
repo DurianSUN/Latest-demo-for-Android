@@ -30,7 +30,6 @@ public class MainActivty_RecyclerAdapter extends RecyclerView.Adapter<MainActivt
         //设置card插图的ID
         this.mCardImage = new int[]{R.mipmap.logo, R.mipmap.cat,
                 R.mipmap.logo, R.mipmap.card_bg_taohua, R.mipmap.logo};
-
     }
 
     @Override
